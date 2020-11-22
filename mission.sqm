@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=469;
+		nextID=508;
 	};
 	class Camera
 	{
-		pos[]={227.62193,306.98999,4186.7588};
-		dir[]={0.13739042,-0.77987027,-0.61085927};
-		up[]={0.17112215,0.62595779,-0.76084441};
-		aside[]={-0.9757278,1.1461088e-006,-0.21944854};
+		pos[]={277.35757,3.2188053,4016.4243};
+		dir[]={0.55179077,-0.18054104,0.81434453};
+		up[]={0.10132613,0.98354447,0.14953554};
+		aside[]={0.82793397,-2.6142225e-006,-0.56100464};
 	};
 };
 binarizationWanted=0;
@@ -405,6 +405,25 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnButton";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnTemplates";
 			expression="true";
 			class Value
@@ -450,25 +469,6 @@ class CustomAttributes
 							};
 						};
 					};
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnButton";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"SCALAR"
-						};
-					};
-					value=0;
 				};
 			};
 		};
@@ -18168,7 +18168,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={278.14297,3.557775,4017.6655};
+				position[]={278.14301,3.5581217,4017.666};
 			};
 			side="Empty";
 			flags=4;
@@ -18177,6 +18177,7 @@ class Mission
 			};
 			id=1147;
 			type="CUP_BOX_US_ARMY_AmmoOrd_F";
+			atlOffset=0.00034666061;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -18194,7 +18195,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""ATMine_Range_Mag"",""ClaymoreDirectionalMine_Remote_Mag"",""DemoCharge_Remote_Mag""],[5,5,5]],[[],[]],[[],[]]],false]";
+							value="[[[[],[]],[[""ATMine_Range_Mag"",""ClaymoreDirectionalMine_Remote_Mag"",""DemoCharge_Remote_Mag""],[5,5,5]],[[""ACE_Clacker"",""ACE_M26_Clacker""],[5,2]],[[],[]]],false]";
 						};
 					};
 				};
